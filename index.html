@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Border collie, perritos, mascotas">
+    <meta name="author" content="Ignacio Mena"/>
+    <title>¡Guau!</title>
+    <link rel="icon" type="image/x-icon" href="./src/paw.svg">
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <!-- Bootstrap -->
+     <!-- CSS -->
+     <link rel="stylesheet" href="./styles.css"/>
+     <!-- CSS -->
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md bg-body-secondary">
+            <div class="container puckyNav">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbar-toggler">
+                <img src="./src/paw.svg" alt="paw" style="max-width: 25px; max-height: 25px;">
+                <ul class="navbar-nav d-flex justify-content-center align-content-center">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#pucky">¡Yo!</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#tricks">Truquitos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#iltd">Mi día</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <section id="pucky" class="pucky container">
+            <!-- por cuestiones de fuerza mayor le pondre estilos a las imagenes -->
+            <img class="rounded-circle" style="max-width: 20%; max-height: 50%;" src="./src/me.jpg" alt="Yo, pucky">
+            <p>¡Hola! Soy Pucky, una Border Collie de 7 meses con mucha mucha energía, ganas de cariños y jugar.</p>
+        </section>
+        <section id="tricks" class="tricks container">
+            <h1>Estos son algunos de mis trucos</h1>
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="container">
+                    <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWs4a2Yydm5peWdoM2toa2xpcTNmbXJ2bnViNDdtZTYwdWhudGdweSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/nSBg7oP6w5L251c5R5/giphy.gif" class="companions-img rounded-circle" alt="giro"/>
+                    <p class="companions-text">"Mi amigo Ignacio me enseñó que cuando escucho "gira" tengo que dar una vuelta de 360°."</p>
+                    <div class="companions-info">
+                      <p>Giro</p>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="container">
+                      <img src="https://i.giphy.com/media/i6CMhCoqNqgcqHCjJo/giphy-downsized-large.gif" class="companions-img rounded-circle" alt="sentada"/>
+                      <p class="companions-text">"Cuando escucho "sentada", las ganas de sentarme me ganan. ¡Maldito conductismo!"</p>
+                      <div class="companions-info">
+                        <p>Sentada</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="container">
+                      <img src="https://i.giphy.com/media/ToSm1kPHD9sQRcI2m4/giphy.webp" class="companions-img rounded-circle" alt="patita"/>
+                      <p class="companions-text">"Al escuchar "patita" y ver que me dan la mano pongo mi patita. Parece que está bien, siempre me felicitan."</p>
+                      <div class="companions-info">
+                       <p>Patita</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="container">
+                      <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXlkMXY5Z2FvbDJsOXM4NDU3d3plZmRrYzJhNnV2a2Y5OHdtcDN2biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wiJCqx5KQ1vxSGGac2/giphy.gif" class="companions-img rounded-circle" alt="abajo"/>
+                      <p class="companions-text">"Este truco me aburre. Cuando escucho "abajo" me tiro al piso y nada más, que pereza."</p>
+                      <div class="companions-info">
+                       <p>Abajo</p>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                  </button>
+                </div>
+        </section>
+        <section id="iltd" class="container iltd flex-column">
+            
+            <h2>Cosas que me gustan hacer en mi día a día</h2>
+            <p>Me gustan muchas cosas, entre esas salir a pasear, aprender trucos nuevos, salir a jugar con mi hermana de otra madre Nia. Oh, claro. A continuacion dejo unas fotos</p>
+            <div class="container d-flex justify-content-evenly">
+            <img class="col-3" src="./src/puckyNia1.jpg" alt="Pucky con Nia">
+            <img class="col-3" src="./src/puckyNia2.jpg" alt="Pucky con Nia">
+            <img class="col-3" src="./src/puckyNia3.jpg" alt="Pucky con Nia">
+        </div>
+        </section>
+        <hr>
+    </main>
+    <footer class="d-flex justify-content-evenly">
+        <p style="margin-top: 15px;">
+        ¡Un gusto conocerlos a todos!
+    </p>
+    <a style="margin-top: 15px;" href="ttps://mpago.la/2W3xHVG" target="_blank">Doname felicidad canina</a>
+</footer>
+    <!-- Bootstrap Scripts -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap Scripts -->  
+</body>
+</html>

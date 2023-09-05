@@ -1,0 +1,71 @@
+.color1 { color: #ffe3b3 }
+.color2 { color: #ff9a52 }
+.color3 { color: #ff5252 }
+.color4 { color: #c91e5a }
+.color5 { color: #3d2922 }
+
+body{
+    background-color: #3d2922;
+}
+
+header{
+    background-color: #ffe3b3;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.pucky{
+    background-color: #ff9a52;
+}
+
+.tricks{
+    padding: 40px 40px 80px 40px;
+    background-color: #ff5252;
+}
+.tricks .carousel{
+    max-width: 800px;
+}
+.carousel-item{
+    height: 500px;
+}
+.carousel-item .container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.companions-img{
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+}
+.companions-text{
+    max-width: 70%;
+    font-size: 20px;
+    text-align: center;
+}
+.companions-info{
+    font-weight: bold;
+    text-align: center;
+}
+.companions-info p{
+    margin-bottom: 0;
+}
+
+.iltd{
+    background-color: #ff9a52;
+    min-height: 500px;
+}
+
+footer{
+    background-color: #ffe3b3;
+    min-height: 60px;
+}
